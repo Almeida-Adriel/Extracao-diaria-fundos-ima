@@ -56,5 +56,6 @@ Instale as dependências:
 python main.py # Conferir se está na pasta Extracao-diaria-fundos-ima
 ```
 
-Desenvolvido por: Adriel Almeida Pereira Leite
-Finalidade: Automação de Processos Financeiros
+#### Desenvolvido por: Adriel Almeida Pereira Leite
+
+#### Finalidade: Automação de Processos Financeiros
