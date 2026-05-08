@@ -29,7 +29,7 @@ O projeto adota os princípios de **Clean Code** e **Separação de Preocupaçõ
 ## Configuração e Instalação
 
 ### Pré-requisitos
-- ython 3.8 ou superior.
+- Python 3.8 ou superior.
 
 - Google Chrome instalado (o driver é gerenciado automaticamente).
 
