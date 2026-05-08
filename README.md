@@ -35,7 +35,7 @@ O projeto adota os princípios de **Clean Code** e **Separação de Preocupaçõ
 
 ### 1. Instalação
 ```
-git clone [git clone https://github.com/Almeida-Adriel/Extracao-diaria-fundos-ima.git](git clone https://github.com/Almeida-Adriel/Extracao-diaria-fundos-ima.git)
+git clone git clone https://github.com/Almeida-Adriel/Extracao-diaria-fundos-ima.git
 ```
 
 ### 2. Crie e ative um ambiente virtual:
