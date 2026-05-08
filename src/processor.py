@@ -77,3 +77,20 @@ def consolidar_final(df_ima, df_idka, indices_map):
     df_final_consolidado.iloc[1, 1:] = df_final_consolidado.iloc[1, 1:].apply(lambda x: utils.swap_decimal_separator(x, False))
 
     return df_final_consolidado
+    
+def transformar_para_armazenamento(df_final):
+    data_ref = df_final.iloc[0, 0]
+    
+    # Criamos um dicionário começando pela Data
+    row_data = {'Data de Referência': data_ref}
+    
+    # Iteramos pelas colunas de índices (pulando a primeira que é a data)
+    for col in df_final.columns[1:]:
+        var_diaria = df_final.iloc[0][col]
+        num_indice = df_final.iloc[1][col]
+        
+        # Criamos colunas específicas para cada métrica
+        row_data[f'{col} | Var %'] = var_diaria
+        row_data[f'{col} | Índice'] = num_indice
+
+    return pd.DataFrame([row_data])
