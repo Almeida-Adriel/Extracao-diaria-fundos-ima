@@ -26,21 +26,22 @@ git clone git clone https://github.com/Almeida-Adriel/Extracao-diaria-fundos-ima
 ### 2. Crie e ative um ambiente virtual:
 ```
 python -m venv venv
+```
+- Ativar:
+```
 source venv/bin/activate  # Linux/Mac
-# ou
+```
+```
 .\venv\Scripts\activate  # Windows
 ```
-
 ### 3. Instale as dependências:
 ```
-Instale as dependências:
+pip install -r requirements.txt
 ```
 
 ### 4. Excução
 ```
 python main.py # Conferir se está na pasta Extracao-diaria-fundos-ima
 ```
-
-#### Desenvolvido por: Adriel Almeida Pereira Leite
 
 #### Finalidade: Automação de Processos Financeiros
