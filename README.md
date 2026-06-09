@@ -11,21 +11,6 @@ Este repositório contém uma solução automatizada de **Business Intelligence*
 
 A aplicação automatiza a navegação web, supera desafios de interfaces baseadas em frames, trata inconsistências de tipos de dados financeiros e gera relatórios prontos para análise técnica ou alimentação de bancos de dados.
 
-## Arquitetura do Sistema
-
-O projeto adota os princípios de **Clean Code** e **Separação de Preocupações (SoC)**, dividindo a lógica em camadas distintas:
-
-```text
-├── data/               # Persistent Storage (Relatório gerado)
-├── src/                # Core Application Logic
-│   ├── scraper.py      # Data Extraction Layer (Selenium/Web Automation)
-│   ├── processor.py    # Transformation Layer (Data Wrangling com Pandas)
-│   └── utils.py        # Shared Utilities (Formatação e Sanetização)
-├── main.py             # Application Entry Point (Workflow Orchestration)
-├── requirements.txt    # Dependency Management
-└── README.md           # Technical Documentation
-```
-
 ## Configuração e Instalação
 
 ### Pré-requisitos
